@@ -23,7 +23,7 @@ pipeline {
             }
         }
         stage('validating-application') {
-            stpes {
+            steps {
                 sh 'mvn validate'
             }
         }

@@ -22,7 +22,7 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('compile-phase') {
+        stage('package-phase') {
             steps {
                 sh 'mvn package'
             }
